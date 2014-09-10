@@ -4,21 +4,24 @@
  * and open the template in the editor.
  */
 
-package project2;
+package PuzzleSolution;
 
 /**
- *
+ * This program automatically calculates the values for the letters that satisfy
+ * the crypt-arithmetic puzzles.
  * @author Yifei
  * @serial 1.0.0
- * @since 05/08/2014
+ * @since 05/09/2014
  */
-public class Question1 {
+public class PuzzleSolution {
 
     /**
+     * This program automatically calculates the values for the letters that satisfy
+     * the crypt-arithmetic puzzles.
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int T , O, G, D;
+        int T, O, G, D;
         for ( T=0; T<10; T++ ) {
             for ( O=0; O<10; O++ ){
                 for ( G=0; G<10; G++ ){
@@ -34,4 +37,4 @@ public class Question1 {
             }
         }       
     }
-}   
+}
